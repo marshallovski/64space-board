@@ -1,0 +1,84 @@
+.container {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.threads {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 6px;
+}
+
+.threads_thread {
+  text-align: left;
+  background-color: #333;
+  padding: 8px;
+  border-radius: 12px;
+  width: 310px;
+  border: 1px solid #555;
+}
+
+.thread_author {
+  font-size: 13px;
+  color: #999;
+}
+
+.thread_text {
+  font-size: 14px;
+}
+
+.thread_time {
+  float: right;
+}
+
+form {
+  margin-left: 1em;
+}
+
+label {
+  font-size: 14px;
+  vertical-align: top;
+  margin-left: 1em;
+}
+
+input,
+textarea {
+  display: block;
+  margin-left: 1em;
+}
+
+.allthreads_button {
+  display: block;
+  margin-left: 1em;
+  margin-top: 1em !important;
+}
+
+.postform_submitbtn {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.postform_text {
+  font-size: 14px;
+}
+
+.threads_reply {
+  background-color: #444;
+  margin-top: 1em !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .threads_thread {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .threads_thread {
+    width: 280px;
+  }
+
+  .threads_thread {
+    margin: 0 auto;
+  }
+}

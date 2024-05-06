@@ -1,0 +1,26 @@
+button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 4px 8px;
+}
+
+.btn-blue {
+  background-color: dodgerblue;
+  border-color: #1e90ff6f;
+}
+
+.btn-red {
+  background-color: #db3c3c;
+  border-color: #ff1a1a68;
+}
+
+.btn-green {
+  background-color: #00b400;
+  border-color: #007a00;
+}
+
+.btn-big {
+  width: 120px;
+  font-weight: bold;
+}
